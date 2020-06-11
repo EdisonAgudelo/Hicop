@@ -25,7 +25,7 @@ SOFTWARE.
 
 #include "hicop.h"
 #include "hicop_ll.h"
-#include "resource/time.h"
+#include "resources/time.h"
 
 
 #ifndef HICOP_MAX_DATA_LENGTH

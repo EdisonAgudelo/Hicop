@@ -25,9 +25,9 @@ SOFTWARE.
 
 #include "hicop_ll.h"
 
-#include "resource/hardware_interface.h"
-#include "resource/time.h"
-#include "resource/crc8.h"
+#include "resources/hardware_interface.h"
+#include "resources/time.h"
+#include "resources/crc8.h"
 
 #ifndef HICOP_LL_BUFFER_LENGTH
 #define HICOP_LL_BUFFER_LENGTH 255
