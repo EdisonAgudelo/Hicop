@@ -28,23 +28,6 @@ SOFTWARE.
 #include "resources/time.h"
 
 
-#ifndef HICOP_MAX_DATA_LENGTH
-#define HICOP_MAX_DATA_LENGTH 250 // don't move, but it talks about maximum transmission lenght
-#endif
-
-#ifndef HICOP_STACK_SIZE
-#define HICOP_STACK_SIZE 5  //FIFO length 
-#endif
-
-#ifndef HICOP_MAX_RESPONSE_TIME
-#define HICOP_MAX_RESPONSE_TIME 100 //ms. Which is other mcu maximum response time
-#endif
-
-#ifndef HICOP_MAX_SEND_TRIES
-#define HICOP_MAX_SEND_TRIES 10    //how many times hicop protocol will try to resend a failed transmission
-#endif
-
-
 //hicop available flags
 typedef enum
 {

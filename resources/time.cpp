@@ -25,11 +25,10 @@ SOFTWARE.
 
 #include "time.h"
 
+#include <Arduino.h>
+
 
 //------------ Arduino Implementation ----------//
-#if defined(HICOP_USE_ARDUINO)
-
-#include <Arduino.h>
 
 uint32_t __attribute__((weak)) GetDiffTime(uint32_t actual, uint32_t prev)
 {
@@ -48,5 +47,3 @@ uint32_t __attribute__((weak)) Millis(void)
 {
     return millis();
 }
-
-#endif
