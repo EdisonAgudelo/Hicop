@@ -26,9 +26,10 @@ SOFTWARE.
 
 //---------- Arduino implementation ----------//
 
-#if defined(HICOP_USE_ARDUINO)
-
 #include <Arduino.h>
+
+void (*uart_callback)(void);
+
 
 void serialEvent() {
   if(uart_callback!=nullptr)
@@ -59,5 +60,3 @@ uint8_t __attribute__((weak)) UartRead(void)
 bool __attribute__((weak)) UartAvailable(void){
   return Serial.available();
 }
-
-#endif
