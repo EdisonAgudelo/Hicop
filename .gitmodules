@@ -1,0 +1,3 @@
+[submodule "pruebas/hicop_protocol/src/Hicop"]
+	path = pruebas/hicop_protocol/src/Hicop
+	url = https://github.com/EdisonAgudelo/Hicop

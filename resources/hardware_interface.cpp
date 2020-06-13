@@ -28,10 +28,10 @@ SOFTWARE.
 
 #include <Arduino.h>
 
-void (*uart_callback)(void);
+void __attribute__((weak)) (*uart_callback)(void);
 
 
-void serialEvent() {
+void __attribute__((weak)) serialEvent() {
   if(uart_callback!=nullptr)
     uart_callback();
 }
