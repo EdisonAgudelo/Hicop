@@ -1,7 +1,7 @@
 # Hicop
 Human Interface Communication Protocol
 
-user should create a file in this folder named hicop_config.h with the following 
+user should create a file out of this folder named hicop_config.h with the following 
 content:
 
 
@@ -28,9 +28,7 @@ content:
 #define HICOP_LL_CRC8_INIT 0x00
 
 
-#include "hicop.h"
-#include "hicop_ll.h"
-
 #endif
 
 thus, library can compile and user can have custom values without modify library
+

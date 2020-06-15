@@ -29,7 +29,7 @@ SOFTWARE.
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "hicop_config.h"
+#include "../hicop_config.h"
 
 //this library is the low level human interface comunitacion protocol
 //it does all frame verfication, reception and transmision task. 
