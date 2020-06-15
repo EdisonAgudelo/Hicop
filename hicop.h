@@ -31,7 +31,7 @@ SOFTWARE.
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "hicop_config.h"
+#include "../hicop_config.h"
 
 //hicop header types
 typedef enum
