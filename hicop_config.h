@@ -45,10 +45,14 @@
 
 #ifndef HICOP_LL_CRC8_POLY
 #define HICOP_LL_CRC8_POLY 0x31
+#else
+#warning HICOP_LL_CRC8_POLY was changed
 #endif
 
 #ifndef HICOP_LL_CRC8_INIT
 #define HICOP_LL_CRC8_INIT 0x00
+#else
+#warning HICOP_LL_CRC8_INIT was changed
 #endif
 
 
