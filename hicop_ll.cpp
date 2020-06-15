@@ -29,30 +29,6 @@ SOFTWARE.
 #include "resources/time.h"
 #include "resources/crc8.h"
 
-#ifndef HICOP_LL_BUFFER_LENGTH
-#define HICOP_LL_BUFFER_LENGTH 255
-#endif
-
-#ifndef HICOP_LL_SERIAL_BAUDRATE
-#define HICOP_LL_SERIAL_BAUDRATE 115200
-#endif
-
-#ifndef HICOP_LL_INVALID_HEADER
-#define HICOP_LL_INVALID_HEADER 0xff
-#endif
-
-#ifndef HICOP_LL_MAX_RX_TIME
-#define HICOP_LL_MAX_RX_TIME 10 //mss
-#endif
-
-#ifndef HICOP_LL_CRC8_POLY
-#define HICOP_LL_CRC8_POLY 0x31
-#endif
-
-#ifndef HICOP_LL_CRC8_INIT
-#define HICOP_LL_CRC8_INIT 0x00
-#endif
-
 struct HicopLLManagement
 {
     uint16_t prev_pointer_last; //do some backup to know how many data was before buffer clean up
